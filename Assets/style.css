@@ -3,7 +3,7 @@ body {
     margin: 0;
     color: #000080;
     background-color: white;
-    padding-top: 175px;
+    padding-top: 150px;
 }
 .logo img{
     width: 400px;
@@ -82,4 +82,20 @@ h1{
     margin-left: 30px;
     width: 50%;
     text-align: center;
+}
+.info{
+    text-align: center;
+    width: 50%;
+    border:#000080 solid 2px;
+    border-radius: 30px 0px 30px 0px;
+    margin: auto;
+    font-size: 30px;
+}
+span{
+    text-align: center;
+    font-size: 60px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
 }
