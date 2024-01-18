@@ -37,12 +37,9 @@ a{
 .Tjänster:hover{
     color: green;
 }
-.logo img:hover{
-    background-color: white;
-
-}
 aside{
     padding: 20px;
+    
 }
 iframe{
     width: 30%;
@@ -50,12 +47,20 @@ iframe{
     border: 0;
     display:block;
     margin-top: 175px;
+    float: right;
 }
-/*.googlemap{
-    margin:0;
-    padding: 0;
-    height: 100vh;
-    overflow: hidden;
+.Försäljningsobjekt{
+    margin-top: 175px;
+    text-align: inherit;
+    width: 50%;
+}
+.Försäljningsobjekt img{
 
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+h2{
+    margin: -10px;
 }
 
