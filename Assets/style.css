@@ -1,0 +1,101 @@
+body {
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    color: #000080;
+    background-color: white;
+    padding-top: 150px;
+}
+.logo img{
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color:beige;
+    width: 100%;
+    height: 150px;
+}
+table{
+    width: 100%;
+}
+.Tjänster{
+    padding: 35px 15px;
+    float: right;
+}
+.Kontakt{    
+    padding: 35px 15px;
+    padding-right: 40px;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.Kontakt:hover {
+    color: green;
+}
+.Tjänster:hover{
+    color: green;
+}
+aside{
+    padding: 20px;
+    
+}
+iframe{
+    width: 40%;
+    margin-top: 61.44px;
+    margin-right: 30px;
+    height: 400px;
+    display: block;
+    float: right;
+    border:#000080 solid 5px;
+}
+.Försäljningsobjekt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    border:#000080 solid 2px;
+    border-radius: 30px 0px 30px 0px;
+}
+.Försäljningsobjekt:hover{
+    cursor: pointer;
+    border:green solid 2px;
+    box-shadow: 0px 0px 5px green;
+}
+.Försäljningsobjekt div{
+    width: 65%;
+}
+.Försäljningsobjekt img{
+    width: 300px;
+    border-radius: 30px 0px 0px 0px;
+}
+.Försäljningsobjekt p{
+    font-size: 20px;
+}
+h1{
+    margin-left: 30px;
+    width: 50%;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    width: 50%;
+    border:#000080 solid 2px;
+    border-radius: 30px 0px 30px 0px;
+    margin: auto;
+    font-size: 30px;
+}
+span{
+    text-align: center;
+    font-size: 60px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
