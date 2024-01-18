@@ -3,9 +3,11 @@ body {
     margin: 0;
     color: #000080;
     background-color: white;
+    padding-top: 175px;
 }
 .logo img{
     width: 400px;
+    margin-left: 30px;
 }
 
 nav{
@@ -42,25 +44,42 @@ aside{
     
 }
 iframe{
-    width: 30%;
+    width: 40%;
+    margin-top: 61.44px;
+    margin-right: 30px;
     height: 400px;
-    border: 0;
-    display:block;
-    margin-top: 175px;
+    display: block;
     float: right;
+    border:#000080 solid 5px;
 }
 .Försäljningsobjekt{
-    margin-top: 175px;
-    text-align: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-bottom: 30px;
     width: 50%;
+    border:#000080 solid 2px;
+    border-radius: 30px 0px 30px 0px;
+}
+.Försäljningsobjekt:hover{
+    cursor: pointer;
+    border:green solid 2px;
+    box-shadow: 0px 0px 5px green;
+}
+.Försäljningsobjekt div{
+    width: 65%;
 }
 .Försäljningsobjekt img{
-
-    height: 100px;
-    float: left;
-    margin-right: 10px;
+    width: 300px;
+    border-radius: 30px 0px 0px 0px;
 }
-h2{
-    margin: -10px;
+.Försäljningsobjekt p{
+    font-size: 20px;
 }
-
+h1{
+    margin-left: 30px;
+    width: 50%;
+    text-align: center;
+}
