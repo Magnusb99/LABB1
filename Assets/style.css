@@ -1,0 +1,15 @@
+body {
+
+    margin: 0;
+}
+.logo img{
+    height: 150px;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: pink;
+    width: 100%;
+    height: 150px;
+}
