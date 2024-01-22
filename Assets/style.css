@@ -67,11 +67,8 @@ iframe{
     border:green solid 2px;
     box-shadow: 0px 0px 5px green;
 }
-.Försäljningsobjekt div{
-    
-}
 .Försäljningsobjekt img{
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 30px 0px 0px 0px;
     border-right: #000080 solid 2px;
@@ -107,3 +104,14 @@ span{
     margin-top: 2%;
     margin-bottom: 30px;
 }
+.logo2 img{
+    width: 35%;
+    margin-left: 5%;
+}
+.bar{
+    bottom: 0;
+    background-color:beige;
+    width: 100%;
+    height: 150px;
+}
+
