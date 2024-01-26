@@ -1,6 +1,7 @@
 .sida{
     max-width: 980px;
     margin: 0 auto;
+    padding: 250px;
 }
 body {
     font-family: 'Abel', sans-serif;
@@ -109,11 +110,9 @@ span{
     margin-left: 5%;
 }
 .bar{
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;   
     background-color: beige;   
     padding: 10px;
 }
-
