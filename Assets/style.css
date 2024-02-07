@@ -108,9 +108,21 @@ aside img{
 .menu h2{
     font-size: 30px;
 }
-nav ul{
+.menu:first-child{
+
+}
+.dropdown{
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: beige;
     z-index: 1;
+    float: none;
+    top: 80px;
+    width: 33%;
+    justify-content: space-around;
+    list-style-type: none;
 }
+.dropdown a{
+    display: block;
+}
+.menu:first-child:hover .dropdown {display: block;}
