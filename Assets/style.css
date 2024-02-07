@@ -109,7 +109,11 @@ aside img{
     font-size: 30px;
 }
 .menu:first-child{
-
+    position: relative;
+    display: inline-block;
+}
+.menu:first-child h2{
+    margin-top: 0px;
 }
 .dropdown{
     display: none;
@@ -117,7 +121,7 @@ aside img{
     background-color: beige;
     z-index: 1;
     float: none;
-    top: 80px;
+    top: 75px;
     width: 33%;
     justify-content: space-around;
     list-style-type: none;
