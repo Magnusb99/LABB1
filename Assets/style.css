@@ -94,20 +94,18 @@ span{
 aside img{
     width: 30%;
 }
-.menu {
+.menu{
     display: flex;
     text-align: center;
+    width: 33%;
     align-items: center;
     height: 150px;
     justify-content: center;
-    position: relative;
 }
-
-.menu img {
+.menu img{
     width: 75%;
 }
-
-.menu h2 {
+.menu h2{
     font-size: 30px;
 }
 .menu:first-child{
@@ -116,9 +114,10 @@ aside img{
 }
 .menu:first-child h2{
     margin-top: 0px;
-}
+.menu:first-child{
 
-.dropdown {
+}
+.dropdown{
     display: none;
     position: absolute;
     background-color: beige;
@@ -126,19 +125,13 @@ aside img{
     float: none;
     top: 75px;
     width: 33%;
+    float: none;
+    top: 80px;
+    width: 33%;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
-
-.dropdown a {
-    display: block;
-    padding: 10px 0;
-    color: #333;
-    text-decoration: none;
-}
-
-.menu:hover .dropdown {
+.dropdown a{
     display: block;
 }
+.menu:first-child:hover .dropdown {display: block;}
