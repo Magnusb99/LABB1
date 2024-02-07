@@ -101,6 +101,7 @@ aside img{
     align-items: center;
     height: 150px;
     justify-content: center;
+
 }
 .menu img{
     width: 75%;
@@ -123,9 +124,6 @@ aside img{
     background-color: beige;
     z-index: 1;
     float: none;
-    top: 75px;
-    width: 33%;
-    float: none;
     top: 80px;
     width: 33%;
     justify-content: space-around;
@@ -133,5 +131,16 @@ aside img{
 }
 .dropdown a{
     display: block;
+}
+.menu:first-child:hover .dropdown {display: block;}
+
+.info ul{
+    list-style: none;
+}
+form{
+    margin-bottom: 20px;
+}
+h3{
+    margin-bottom: 5px;
 }
 .menu:first-child:hover .dropdown {display: block;}
