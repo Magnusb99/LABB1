@@ -110,9 +110,12 @@ aside img{
 .menu h2 {
     font-size: 30px;
 }
-
-.menu:first-child h2 {
-    margin-top: 0;
+.menu:first-child{
+    position: relative;
+    display: inline-block;
+}
+.menu:first-child h2{
+    margin-top: 0px;
 }
 
 .dropdown {
@@ -120,8 +123,9 @@ aside img{
     position: absolute;
     background-color: beige;
     z-index: 1;
-    top: 100%;
-    width: 100%;
+    float: none;
+    top: 75px;
+    width: 33%;
     justify-content: space-around;
     list-style-type: none;
     padding: 0;
