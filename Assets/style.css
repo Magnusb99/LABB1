@@ -121,24 +121,15 @@ aside img{
 .dropdown {
     display: none;
     position: absolute;
-    background-color: beige;
+    background-color: white;
     z-index: 1;
     float: none;
-
+    top: 80px;
     width: 33%;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
-
-.dropdown a {
-    display: block;
-    padding: 10px 0;
-    color: #333;
-    text-decoration: none;
-}
-
-.menu:hover .dropdown {
+.dropdown a{
     display: block;
 }
+.menu:first-child:hover .dropdown {display: block;}
