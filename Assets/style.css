@@ -94,19 +94,17 @@ span{
 aside img{
     width: 30%;
 }
-.menu {
+.menu{
     display: flex;
     text-align: center;
     width: 33%;
     height: 150px;
     display: inline-block;
 }
-
-.menu img {
+.menu img{
     width: 75%;
 }
-
-.menu h2 {
+.menu h2{
     font-size: 30px;
 }
 .dropdown{
@@ -130,3 +128,4 @@ form{
 h3{
     margin-bottom: 5px;
 }
+.menu:first-child:hover .dropdown {display: block;}
