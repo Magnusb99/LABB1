@@ -98,10 +98,8 @@ aside img{
     display: flex;
     text-align: center;
     width: 33%;
-    align-items: center;
     height: 150px;
-    justify-content: center;
-
+    display: inline-block;
 }
 
 .menu img {
@@ -111,23 +109,11 @@ aside img{
 .menu h2 {
     font-size: 30px;
 }
-.menu:first-child{
-    position: relative;
-    display: inline-block;
-}
-.menu:first-child h2{
-    margin-top: 0px;
-}
-
-.dropdown {
+.dropdown{
     display: none;
-    position: absolute;
     background-color: beige;
-    z-index: 1;
     float: none;
-    top: 80px;
-    width: 33%;
-    justify-content: space-around;
+    top: 100%;
     list-style-type: none;
 }
 .dropdown a{
