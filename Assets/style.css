@@ -32,7 +32,7 @@ iframe{
     float: right;
     border:#000080 solid 5px;
 }
-.Försäljningsobjekt{
+.Forsaljningsobjekt{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,23 +43,23 @@ iframe{
     border:#000080 solid 2px;
     border-radius: 30px 0px 30px 0px;
 }
-.Försäljningsobjekt:hover{
+.Forsaljningsobjekt:hover{
     cursor: pointer;
     border:green solid 2px;
     box-shadow: 0px 0px 5px green;
 }
-.Försäljningsobjekt img{
+.Forsaljningsobjekt img{
     width: 50%;
     height: auto;
     border-radius: 30px 0px 0px 0px;
     border-right: #000080 solid 2px;
 }
-.Försäljningsobjekt p{
+.Forsaljningsobjekt p{
     margin: 0;
     font-size: 100%;
     margin-left: 5%;
 }
-.Försäljningsobjekt h2{
+.Forsaljningsobjekt h2{
     margin: 0;
     margin-left: 5%;
 }
