@@ -12,23 +12,23 @@
     </head>
     <body>
         <header>
-            <nav>
-                <div class="menu">
-                    <a href="tjänster.html">
-                        <h2>Tjänster</h2>
-                    </a>
-                    <div class="dropdown">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-                <div class="menu">
+            <nav> 
+                <div class="menu" id="menu"> <!-- Menyobjekt-->
+                    <a href="tjanster.html">
+                        <h2>Meny</h2>
+                    </a> 
+                    <ul class="dropdown"> <!-- Dropdownfunktion för meny -->
+                        <li><a href="index.html">Hem</a></li>
+                        <li><a href="tjanster.html">Tjänster</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div> 
+                <div class="menu"> <!--Logga-->
                     <a  class="logo" href="index.html">
                         <img src="Assets/Bilder/Logga.png" alt="Dator Doktorn"> <!--Skapade loggan själva med hjälp av canva-->
                     </a>
                 </div>
-                <div class="menu">
+                <div class="menu"> 
                     <a href="kontakt.html">
                         <h2>Kontakt</h2>
                     </a>
@@ -37,15 +37,15 @@
         </header>
         <div class="sida">
             <main>
-                <div id="googlemap"> 
+                <div id="googlemap"> <!--Implementering av google maps på hemsidan-->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5757.318619807099!2d16.323723056541773!3d78.65590881545313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x459d998a5898a749%3A0xbb252eafca66d80c!2sPyramiden%209170%2C%20Svalbard!5e0!3m2!1ssv!2sse!4v1706452310161!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
                 <h1><strong>
                     Annonser:
                 </strong></h1>
-                <a href="tjänster.html">
-                    <div class="Försäljningsobjekt">
+                <a href="tjanster.html"> 
+                    <div class="Forsaljningsobjekt">  <!--Första föräljningsobjektet på hemsidan-->
                         <img src="Assets/Bilder/dator1.jpg" alt="Bild på en laptop"> <!--Bilden är tagen från unsplash.com och är tillgänglig för kommersiellt bruk-->
                         <div>
                             <h2><i>
@@ -57,8 +57,8 @@
                         </div>
                     </div> 
                 </a>
-                <a href="tjänster.html">
-                    <div class="Försäljningsobjekt">
+                <a href="tjanster.html">
+                    <div class="Forsaljningsobjekt"> <!--Andra försäljningsobjeketet på hemsidan-->
                         <img src="Assets/Bilder/dator2.jpg" alt="Bild på en stationär dator"> <!--Bilden är tagen från unsplash.com och är tillgänglig för kommersiellt bruk-->
                         <div>
                             <h2><b>
@@ -70,8 +70,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="tjänster.html">
-                    <div class="Försäljningsobjekt">
+                <a href="tjanster.html">
+                    <div class="Forsaljningsobjekt"> <!--Tredje försälningsobjektet på hemsidan-->
                         <img src="Assets/Bilder/dator3.jpg" alt="Bild på en gammal dator"> <!--Bilden är tagen från unsplash.com och är tillgänglig för kommersiellt bruk-->
                         <div>
                             <h2>
@@ -90,27 +90,23 @@
                 </a>
             </aside>
         </div>
-        <footer>
+        <footer> <!--Hemsidans footer-->
             <div class="bar">
-                <table>
-                    <tr>
-                        <td>
-                            <a  class="logo2" href="index.html">
-                                <img src="Assets/Bilder/Logga.png" alt="Dator Doktorn">
-                            </a>
-                        </td>
-                        <td class="Kontakt">
-                            <h1>
-                                Instagram
-                            </h1>
-                        </td>
-                        <td class="Tjänster">
-                            <h1>
-                                Facebook
-                            </h1>
-                        </td>
-                    </tr>
-                </table>
+                <div class="fot"> 
+                    <a  class="logo2" href="index.html"> 
+                        <img src="Assets/Bilder/Logga.png" alt="Dator Doktorn">
+                    </a>
+                </div>
+                <div class="fot">
+                    <h1>
+                        Instagram
+                    </h1>
+                </div>
+                <div class="fot">
+                    <h1>
+                        Facebook
+                    </h1>
+                </div>
             </div>
         </footer>
     </body>
