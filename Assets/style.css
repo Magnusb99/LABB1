@@ -101,6 +101,9 @@ aside img{
     height: 150px;
     display: inline-block;
 }
+#menu{
+    display: flex;
+}
 .menu img{
     width: 75%;
 }
