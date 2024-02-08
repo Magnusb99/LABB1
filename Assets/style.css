@@ -1,14 +1,17 @@
+/* Ställer in maxbredd för sidan samt centrerar den horisontellt */
 .sida{
     max-width: 980px;
     margin: 0 auto;
     padding: 250px;
 }
+/* */
 body{
     font-family: 'Abel', sans-serif;
     margin: 0;
     color: #000080;
     background-color: white;
 }
+/* Stilen på navbaren*/
 nav{
     position: fixed;
     top: 0;
@@ -17,13 +20,16 @@ nav{
     height: 150px;
     display: flex;
 }
+/* Tar bort understrykning från länkar*/
 a{
     text-decoration: none;
     color: inherit;
 }
+/* Ändrar färg vid hover av objekt i menyn */
 .menu:hover {
     color: green;
 }
+
 iframe{
     width: 40%;
     margin-top: 61.44px;
@@ -32,6 +38,7 @@ iframe{
     float: right;
     border:#000080 solid 5px;
 }
+/* Styling för försäljningsobjektet */
 .Forsaljningsobjekt{
     display: flex;
     flex-direction: row;
@@ -43,26 +50,31 @@ iframe{
     border:#000080 solid 2px;
     border-radius: 30px 0px 30px 0px;
 }
+/* Styling av försäljningobjektet när man hovrar*/
 .Forsaljningsobjekt:hover{
     cursor: pointer;
     border:green solid 2px;
     box-shadow: 0px 0px 5px green;
 }
+/* Styling av bilden inuti objektet*/
 .Forsaljningsobjekt img{
     width: 50%;
     height: auto;
     border-radius: 30px 0px 0px 0px;
     border-right: #000080 solid 2px;
 }
+/* Styling av stycket i objektet */
 .Forsaljningsobjekt p{
     margin: 0;
     font-size: 100%;
     margin-left: 5%;
 }
+/* Styling av titeln i objektet*/
 .Forsaljningsobjekt h2{
     margin: 0;
     margin-left: 5%;
 }
+/* Styling av objektet/textrutan*/
 .info{
     text-align: center;
     width: 70%;
@@ -71,6 +83,7 @@ iframe{
     margin: auto;
     font-size: 100%;
 }
+/* Styling av texten i objektet*/
 span{
     text-align: center;
     font-size: 300%;
@@ -80,10 +93,12 @@ span{
     margin-top: 2%;
     margin-bottom: 30px;
 }
+/* Styling av logan i footern*/
 .logo2 img{
     width: 35%;
     margin-left: 5%;
 }
+/* Styling av footern*/
 .bar{
     bottom: 0;
     left: 0;
@@ -91,9 +106,11 @@ span{
     background-color: beige;   
     padding: 10px;
 }
+/* Styling av bilden i asiden*/
 aside img{
     width: 30%;
 }
+/* Styling av menyn i navbaren*/
 .menu{
     display: flex;
     text-align: center;
@@ -110,6 +127,7 @@ aside img{
 .menu h2{
     font-size: 30px;
 }
+/* Stylingen av dropdown i meny objektet*/
 .dropdown{
     display: none;
     background-color: beige;
@@ -117,20 +135,24 @@ aside img{
     top: 100%;
     list-style-type: none;
 }
+/* Styling av länkarna i dropdownmenyn*/
 .dropdown a{
     display: block;
 }
+/* Dropdown vid hover av muspekare*/
 .menu:first-child:hover .dropdown {display: block;}
 
 .info ul{
     list-style: none;
 }
+/* Styling av formuläret på kontakt sidan*/
 form{
     margin-bottom: 20px;
 }
 h3{
     margin-bottom: 5px;
 }
+/* Styling av footern */
 .fot{
     display: flex;
     text-align: center;
