@@ -118,11 +118,11 @@ aside img{
     height: 150px;
     display: inline-block;
 }
-#menu{
-    display: flex;
-}
 .menu img{
     width: 75%;
+}
+#menu{
+    display: flex;
 }
 .menu h2{
     font-size: 30px;
@@ -140,7 +140,7 @@ aside img{
     display: block;
 }
 /* Dropdown vid hover av muspekare*/
-.menu:first-child:hover .dropdown {display: block;}
+#menu:hover .dropdown {display: block;}
 
 .info ul{
     list-style: none;
