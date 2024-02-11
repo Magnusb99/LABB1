@@ -160,3 +160,15 @@ h3{
     height: 150px;
     display: inline-block;
 }
+table{
+    width: 100%;
+}
+th{
+    display: flex;
+    justify-content: center;
+}
+td{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
